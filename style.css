@@ -1,0 +1,147 @@
+@font-face {
+  font-family: PLAYFAIR;
+  src: url('PLAYFAIR.ttf');
+}
+
+body {
+  user-select: none;
+  font-family: PLAYFAIR;
+  background-color: #879980;
+  background-image: url('waterfall.jpg');
+  background-size: cover;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: PLAYFAIR;
+}
+
+#main-list {
+  width: 700px;
+  height: 500px;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0px 0px 40px 15px #557150;
+  right: 0;
+  background-color: #8fab6dFF;
+}
+
+#storage {
+  width: 200px;
+  border-radius: 15px;
+  padding: 8px;
+  z-index: 100;
+  position: relative;
+  position: absolute;
+  font-size: 25px;
+  background-color: #95a079;
+  transition: width 100ms ease-in-out, background-color 100ms ease-in-out;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#storage:hover {
+  cursor: pointer;
+  background-color: #c3df5d;
+  width: 215px;
+}
+
+#suburbia {
+  width: 600px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('suburbs.jpg');
+  border-radius: 15px;
+  background-position: 50% -180px; 
+}
+
+#list {
+  height: 300px;
+  overflow-y: auto;
+  width: 600px;
+  margin: auto;
+  text-align: left;
+  background-color: #878f76;
+  border-radius: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+#trash {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  background-color: red;
+  border-radius: 5px;
+  bottom: 3px;
+  right: 3px;
+  transition: 100ms background-color ease-in-out, width 100ms ease-in-out;
+}
+
+#trash:hover {
+  background-color: #6e0212;
+  width: 40px;
+  cursor: pointer;
+}
+
+#add-text {
+  width: 50px;
+  border-radius: 10px;
+  background-color: #cce4a0;
+}
+
+#addite, #savite {
+  display: none;
+}
+
+.title {
+  font-size: 35px;
+  
+}
+
+.list-item {
+  width: 450px;
+  padding: 8px;
+  background-color: #a8b09b;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 5px 10px 8px #888888;
+  transition: width 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  background-color: #777b65;
+  width: 470px;
+}
+
+.list-item2 {
+  width: 450px;
+  padding: 8px;
+  background-color: #a8b09b;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 5px 10px 8px #888888;
+  transition: width 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.list-item2:hover {
+  cursor: pointer;
+  background-color: #9a0909;
+  width: 470px;
+}
+
+.cursr {
+  border-radius: 15px;
+  padding: 8px;
+  width: 250px;
+  border: hidden;
+}
